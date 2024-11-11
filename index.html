@@ -39,7 +39,6 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            
             padding: 10px;
         }
         footer {
@@ -59,28 +58,40 @@
     </header>
 
     <main id="eternity" class="content py-10 text-center relative z-10">
-        <h2 class="text-2xl text-white">L.E.G.I.O.N</h2>
-        <p class="mt-4 text-white">L.E.G.I.O.N est un bloc note améliorer, permettant l'implémentation de plugins, la mise en place de serveur, la gestion de projets tout cela dans un simple bloc note. </p>
-        <a href="https://github.com/lucky050803/LEGION" target="_blank" class="mt-6 inline-block px-4 py-2 border-2 border-white text-white hover:bg-white hover:text-black transition">Lien du repo</a>
-        <p class="mt-4 text-white">______________________</p>
-        <h2 class="text-2xl text-white">Berserker</h2>
-        <p class="mt-4 text-white">Berserker est un projet de chat local avec une interface minimaliste en utilisant un serveur local.</p>
-        <a href="https://github.com/lucky050803/BERSERKER" target="_blank" class="mt-6 inline-block px-4 py-2 border-2 border-white text-white hover:bg-white hover:text-black transition">Lien du repo</a>
-        <p class="mt-4 text-white">______________________</p>
-        <h2 class="text-2xl text-white">Life Is Hell</h2>
-        <p class="mt-4 text-white">Un jeu bullet hell basé sur le combat de boss (toujours en développement).</p>
-        <a href="https://github.com/lucky050803/Life-is-hell" target="_blank" class="mt-6 inline-block px-4 py-2 border-2 border-white text-white hover:bg-white hover:text-black transition">Lien du repo</a>
-        <a href="https://github.com/lucky050803/Life-Is-Hell-Beta" target="_blank" class="mt-6 inline-block px-4 py-2 border-2 border-white text-white hover:bg-white hover:text-black transition">Lien vers la béta</a>
-        <p class="mt-4 text-white">______________________</p>
-        <h2 class="text-2xl text-white">Wh-OverWorld</h2>
-        <p class="mt-4 text-white">Système de sauvegarde de cartes pour warhammer underworld</p>
-        <a href="https://lucky050803.github.io/Wh-Overworld/" target="_blank" class="mt-6 inline-block px-4 py-2 border-2 border-white text-white hover:bg-white hover:text-black transition">Lien du repo</a>
-        <p class="mt-4 text-white">______________________</p>
-        <h2 class="text-2xl text-white">Trône de Crâne</h2>
-        <p class="mt-4 text-white">Système de tableau des scores pourwarhammer underworld (réseau local avec serveur flask)</p>
-        <a href="https://github.com/lucky050803/Trone-de-crane" target="_blank" class="mt-6 inline-block px-4 py-2 border-2 border-white text-white hover:bg-white hover:text-black transition">Lien du repo</a>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-2xl">L.E.G.I.O.N</h2>
+                <p class="mt-4">L.E.G.I.O.N est un bloc note améliorer, permettant l'implémentation de plugins, la mise en place de serveur, la gestion de projets tout cela dans un simple bloc note.</p>
+                <a href="https://github.com/lucky050803/LEGION" target="_blank" class="mt-6 inline-block px-4 py-2 border-2 border-white text-white hover:bg-white hover:text-black transition">Lien du repo</a>
+            </div>
+
+            <div class="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-2xl">Berserker</h2>
+                <p class="mt-4">Berserker est un projet de chat local avec une interface minimaliste en utilisant un serveur local.</p>
+                <a href="https://github.com/lucky050803/BERSERKER" target="_blank" class="mt-6 inline-block px-4 py-2 border-2 border-white text-white hover:bg-white hover:text-black transition">Lien du repo</a>
+            </div>
+
+            <div class="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-2xl">Life Is Hell</h2>
+                <p class="mt-4">Un jeu bullet hell basé sur le combat de boss (toujours en développement).</p>
+                <a href="https://github.com/lucky050803/Life-is-hell" target="_blank" class="mt-6 inline-block px-4 py-2 border-2 border-white text-white hover:bg-white hover:text-black transition">Lien du repo</a>
+                <a href="https://github.com/lucky050803/Life-Is-Hell-Beta" target="_blank" class="mt-6 inline-block px-4 py-2 border-2 border-white text-white hover:bg-white hover:text-black transition">Lien vers la béta</a>
+            </div>
+
+            <div class="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-2xl">Wh-OverWorld</h2>
+                <p class="mt-4">Système de sauvegarde de cartes pour Warhammer Underworld.</p>
+                <a href="https://lucky050803.github.io/Wh-Overworld/" target="_blank" class="mt-6 inline-block px-4 py-2 border-2 border-white text-white hover:bg-white hover:text-black transition">Lien du repo</a>
+            </div>
+
+            <div class="bg-gray-800 text-white p-6 rounded-lg shadow-lg">
+                <h2 class="text-2xl">Trône de Crâne</h2>
+                <p class="mt-4">Système de tableau des scores pour Warhammer Underworld (réseau local avec serveur Flask).</p>
+                <a href="https://github.com/lucky050803/Trone-de-crane" target="_blank" class="mt-6 inline-block px-4 py-2 border-2 border-white text-white hover:bg-white hover:text-black transition">Lien du repo</a>
+            </div>
+        </div>
     </main>
-    
+
     <footer class="py-6 text-center border-t-2 border-black relative z-10">
         <p class="text-white">&copy; 2024 Nois Tech. Tous droits réservés.</p>
     </footer>
